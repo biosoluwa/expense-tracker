@@ -1,0 +1,37 @@
+**Expense Tracker**
+
+Track income and expenses, show current balance.
+
+Data:
+
+```javascript
+const transactions = [];
+```
+
+Each transaction needs:
+- Unique ID
+- Description (text)
+- Amount (number)
+- Type ('income' or 'expense')
+
+Required functionality:
+- Form with description input, amount input, and type selector (income/expense)
+- Add transaction button
+- Display all transactions in a list
+- Show current balance (income minus expenses)
+- Show total income
+- Show total expenses
+- Delete individual transactions
+
+Constraints:
+- Amount must be a positive number
+- Balance can go negative
+- No editing transactions after creation
+- Clear the form after adding
+
+Stretch goals:
+- Filter by type (show all / income only / expenses only)
+- Sort by amount or date added
+- Prevent adding transaction with empty description or zero amount
+
+Build it.
