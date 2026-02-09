@@ -60,10 +60,10 @@ function displayTransactionList(){
         const listDiv = document.createElement('div')
         listDiv.classList.add('list-item-div')
         if(transaction.type === 'income'){
-            listItem.textContent = `${transaction.description} +${transaction.amount}`
+            listItem.textContent = `${transaction.description} (+$${transaction.amount})`
             listDiv.classList.add('green-border')
         }else{
-            listItem.textContent = `${transaction.description} -${transaction.amount}` 
+            listItem.textContent = `${transaction.description} (-$${transaction.amount})` 
             listDiv.classList.add('red-border')
         }
         deleteBtn.innerHTML = `<i class="fa-solid fa-trash" id="${transaction.id}"></i>`
