@@ -152,10 +152,5 @@ button{
      .income-expense p {
         font-size: 0.5rem;
      }
-     
-    .income,
-    .expense{
-        padding: 0.5em 1em;
-    }
 
 }
