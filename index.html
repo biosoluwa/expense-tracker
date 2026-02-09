@@ -42,15 +42,15 @@
                 <form action="" id="form-el">
 
                     <label for="description">Transaction Description</label>
-                    <input type="text" id="description" class="description"  placeholder="E.g. salary">
+                    <input type="text" id="description" class="description"  placeholder="E.g. salary" required>
 
                     <label for="amount">Amount</label>
-                    <input type="number" id="amount" min="0" class="amount" placeholder="500">
+                    <input type="number" id="amount" min="0" class="amount" placeholder="500" required>
                     
                     <fieldset>
                         <legend>Select Expense Type:</legend>
                         <div class="radio-option">
-                            <input type="radio" name="choice" id="income">
+                            <input type="radio" name="choice" id="income" required>
                             <label for="income">Income</label>
                         </div>
                         <div class="radio-option">
