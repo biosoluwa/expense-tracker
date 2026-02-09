@@ -150,7 +150,7 @@ button{
 
 @media(max-width: 480px){
      .income-expense p {
-        font-size: 0.25rem;
+        font-size: 0.5rem;
      }
      
     .income,
