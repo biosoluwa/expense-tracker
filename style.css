@@ -57,6 +57,7 @@ header{
 hr{
     border: 1px solid #dedede;
 }
+
 .income,
 .expense{
     padding: 0.5em 1em;
@@ -145,4 +146,16 @@ button{
 }
 .green-border{
         border-right: 5px solid green;
+}
+
+@media(max-width: 480px){
+     .income-expense p {
+        font-size: 0.25rem;
+     }
+     
+    .income,
+    .expense{
+        padding: 0.5em 1em;
+    }
+
 }
